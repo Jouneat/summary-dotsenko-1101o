@@ -61,6 +61,7 @@ background: linear-gradient(-45deg, #9C6AD6 15%,#FFD073 35%, #FFFF73 85%, #FFE77
 
 .container > img {
 max-height: 20%;
+margin-left: 10px;
 }
 .container:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
@@ -81,8 +82,12 @@ header > img {
 height: 50px;
 width: 50px;
 }
-footer > p {
-    text-align: right;
-    font-size: 0.7em;
+
+.footer-link {
+    text-align: center;
 }
 
+.i1 {
+    height: 50px;
+    width: 50px;
+}
